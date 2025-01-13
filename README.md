@@ -36,8 +36,8 @@ In the ETL pipeline, the pandas.read_csv() function is used to load the data fro
 
 **3.Load:** <br/>
 
-Purpose: Once the data is transformed and cleaned, it is ready to be loaded for further use, like machine learning models, analysis, or visualization. <br/>
-Process: In this case, instead of loading data into a database, output is  display the transformed data directly in the notebook. <br/>
+**Purpose:** Once the data is transformed and cleaned, it is ready to be loaded for further use, like machine learning models, analysis, or visualization. <br/>
+**Process:** In this case, instead of loading data into a database, output is  display the transformed data directly in the notebook. <br/>
 The display() function from IPython is used to show the grouped data, where each row represents an order, and the corresponding products are shown as a space-separated string. <br/>
 
 **This process ensures that data is in the right format, cleaned, and ready for decision-making or machine learning tasks.**
